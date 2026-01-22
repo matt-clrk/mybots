@@ -3,6 +3,8 @@ import time as t
 
 physicsClient = p.connect(p.GUI)
 
+p.loadSDF("box.sdf")
+
 i = 0
 for i in range(0, 1000):
     p.stepSimulation()
